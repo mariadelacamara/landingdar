@@ -1,0 +1,71 @@
+@import '../../../../../scss/variables.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 70px auto;
+    max-width: $large-width-container;
+    width: 100%;
+ }
+
+.title {
+    color: $light-black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 16px 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 18px;
+}
+
+.logo {
+    max-width: 200px;
+    width: 100%;
+    margin: 0 0 24px -5px;
+}
+
+.cardscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 258px;
+}
+
+.imgcard {
+    width: 100%;
+    max-width: 258px;
+}
+
+.articlecard {
+    color: $dark-grey;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.articletitle, .articlesubtitle {
+    color: $light-black;
+    line-height: 18px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.articletitle {
+    font-size: 16px;
+    font-weight: 700;   
+}
+
+.articlesubtitle {
+    font-size: 14px;
+    max-height: 3em;
+    overflow: hidden;
+    white-space: normal;
+}

@@ -1,0 +1,38 @@
+@import '../../../../../scss/variables.scss';
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 70px auto;
+  width: $medium-width-container;
+}
+
+.textcontainer {
+  align-items: flex-start;
+  border-left: 1px solid $light-grey;
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  padding: 24px 16px 0; 
+}
+
+.title {
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.logocontainer {
+  width: 180px;
+}
+
+.logo {
+  width: 180px
+}

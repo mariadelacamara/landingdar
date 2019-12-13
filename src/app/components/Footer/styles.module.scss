@@ -1,0 +1,19 @@
+.footerbottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #37454d;
+    padding: 32px 0;
+    margin-top: 0;
+    height: auto;
+    align-items: center;
+}
+
+.copyright {
+    color: #9ba2a6;
+    font-size: 12px;
+}
+
+.footerimg {
+    width: 110px;
+    margin-bottom: 5px;
+}

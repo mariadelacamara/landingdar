@@ -1,0 +1,10 @@
+@import '../../../scss/variables.scss';
+
+.container {
+  border-bottom: 1px solid $light-grey;
+  display: flex;
+  flex-direction: row;
+  height: 63px;
+  justify-content: flex-end;
+  padding-right: 20px;
+}

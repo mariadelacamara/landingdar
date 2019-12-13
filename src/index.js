@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './scss/index.scss';
+import App from './app/components/App';
 import * as serviceWorker from './serviceWorker';
+import 'react-datepicker/dist/react-datepicker.css';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

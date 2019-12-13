@@ -1,0 +1,71 @@
+@import '../../../scss/variables.scss';
+
+.container {
+  &:hover {
+    background-color: $light-grey;
+  }
+  &:hover  + .bubble {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menu {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 63px;
+  padding: 0 16px;
+  width: 88px;
+
+  &:hover {
+    background-color: $light-grey;
+  }
+  &:hover  + .bubble {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.bubble {
+  background-color:$white;
+  box-shadow: 0 6px 20px 0 $medium-grey;
+  display: none;
+  position: fixed;
+  right: 20px;
+  top: 63px;
+  width: 180px;
+ 
+  &:before {
+    border: 10px solid transparent;
+    border-bottom: 10px solid $white;
+    content: "";
+    position: absolute;
+    right: calc(50% - 10px);
+    top: -20px;
+  }
+  &:after {
+    border: 10px solid transparent;
+    border-bottom: 10px solid $white;
+    content: "";
+    position: absolute;
+    right: calc(50% - 10px);
+    top: -18px;
+  }
+  &:hover {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+ 
+.links {
+  padding: 18px 15px;
+    
+  &:not(:last-child) {
+    border-bottom: 1px solid $light-grey;
+  }
+  &:hover {
+    text-decoration: underline;
+  }
+}
