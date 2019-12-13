@@ -16,24 +16,40 @@ You will also see any lint errors in the console.
 
 You need to install these libraries to make the project works
 
-##Currency codes
+## Currency codes
 
 `npm install currency-codes`
 
 **More info** https://www.npmjs.com/package/currency-codes
 
-https://www.npmjs.com/package/react-select
+## React select
 
-npm install react-select
+`npm install react-select`
 
-https://www.npmjs.com/package/react-modal
+**More info** https://www.npmjs.com/package/react-select
 
-npm install react-modal
+## React Modal
+
+`npm install react-modal`
+
+**More info** https://www.npmjs.com/package/react-modal
+
+## React Datepicker
+
+`npm install react-datepicker`
+
+**More info** https://www.npmjs.com/package/react-datepicker
 
 
-https://www.npmjs.com/package/react-datepicker
+## React google autocomplete
 
-https://www.npmjs.com/package/react-google-autocomplete
+`npm install react-google-autocomplete`
+
+**More info** https://www.npmjs.com/package/react-google-autocomplete
+
+**Eslint rules**
+
+I used general rules, Google rules and Airbnb rules. I combined them to have better suggestions but I deactivated some of them that I found useless.
 
 **Good Practices**
 
@@ -44,3 +60,10 @@ https://www.npmjs.com/package/react-google-autocomplete
 - Use of Smart and dumb pattern on Search Section for better separation of concerns
 
 
+**Important**
+
+Since it's a mocked page, not all links and functionality really works.
+- Click on login: opens a mocked modal
+- Menu Links on Navbar are mocked
+- Currency select: displays currency and country list and allows user to select it. User can also type and it will search among all the list items 
+- Search section: user can search for places, choose starting and ending date. User has to start typing on Search input so suggested places will appear. It will not allow user to choose past days nor will it allow the user to choose an end date prior to the initial date. When user clicks on search, it launches an alert.  After mimicking the search, the last one made loads in the bottom.
