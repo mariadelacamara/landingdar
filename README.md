@@ -47,11 +47,11 @@ You need to install these libraries to make the project works
 
 **More info** https://www.npmjs.com/package/react-google-autocomplete
 
-**Eslint rules**
+## Eslint rules
 
 I used general rules, Google rules and Airbnb rules. I combined them to have better suggestions but I deactivated some of them that I found useless.
 
-**Good Practices**
+## Good Practices
 
 - Extract colors and sizes variables on root scss file in order to normalize app styles
 - Order scss class properties aphabeticaly
@@ -60,7 +60,7 @@ I used general rules, Google rules and Airbnb rules. I combined them to have bet
 - Use of Smart and dumb pattern on Search Section for better separation of concerns
 
 
-**Important**
+## Important
 
 Since it's a mocked page, not all links and functionality really works.
 - Click on login: opens a mocked modal
